@@ -1,0 +1,43 @@
+main{
+	background-color: $bgPrimario;
+   overflow: hidden;
+	.row{
+        align-items: center;
+        padding-bottom: 60px;
+	    h1{
+	       color: $colorPrimario;
+	       font-family: Rubik;
+          font-size: 33px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 18px;
+          letter-spacing: -0.01em;
+          display: flex;
+          padding: 60px;
+	       padding-bottom: 40px;
+          justify-content: center;
+          line-height: 35px;
+          }
+        h5{
+           color: $colorSecundario;
+           font-family: Rubik;
+           font-size: 20px;
+           font-style: normal;
+           font-weight: 700;
+           line-height: 18px;
+           letter-spacing: -0.01em;
+           text-align: center;
+           padding: 50px;
+	       padding-bottom: 20px;
+	       padding-left: 0px;
+          }
+         .img-evento{
+           border-radius: 35px;
+           width: 549px;
+
+          }
+        }
+    .row{
+    justify-content: center;
+    }
+}
