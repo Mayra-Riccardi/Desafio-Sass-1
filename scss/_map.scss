@@ -1,0 +1,19 @@
+
+$estilos:(
+     background-color: $backgroundCards,
+     centro: flex-end,
+     text-align: center, 
+     align-items: center,
+	);
+
+
+.card {
+	color:map-get($estilos,backgroundCards);
+	justify-content:map-get($estilos,flex-end);
+	text-align:mqp-get($estilos,center);
+	align-items:map-get($estilos,center);
+	                &:hover{
+	                      transform: translateY(10px);
+	                      box-shadow: 0 12px 16px rgba(122, 7, 76, 0.2);
+	                }
+}
