@@ -1,12 +1,12 @@
 main{
-	background-color: $bgPrimario;
+   background-color: $bgPrimario;
    overflow: hidden;
-	.row{
+   .row{
         align-items: center;
         padding-bottom: 60px;
-	    h1{
-	       color: $colorPrimario;
-	       font-family: Rubik;
+       h1{
+          color: $colorPrimario;
+          font-family: Rubik;
           font-size: 33px;
           font-style: normal;
           font-weight: 700;
@@ -14,9 +14,32 @@ main{
           letter-spacing: -0.01em;
           display: flex;
           padding: 60px;
-	       padding-bottom: 40px;
+          padding-bottom: 40px;
           justify-content: center;
           line-height: 35px;
+          }
+        h3{
+           color: $colorPrimario;
+           font-family: Rubik;
+           font-size: 27px;
+           font-style: normal;
+           font-weight: 700;
+           line-height: 18px;
+           letter-spacing: -0.01em;
+           text-align: left;
+           padding: 50px;
+           padding-bottom: 20px;
+           padding-left: 0px;
+          }
+        p {
+           color: $colorSecundario;
+           font-family: Rubik;
+           font-size: 14px;
+           font-style: normal;
+           font-weight: 400;
+           line-height: 20px;
+           letter-spacing: 0.25px;
+           text-align: left;
           }
         h5{
            color: $colorSecundario;
@@ -26,18 +49,81 @@ main{
            font-weight: 700;
            line-height: 18px;
            letter-spacing: -0.01em;
-           text-align: center;
-           padding: 50px;
-	       padding-bottom: 20px;
-	       padding-left: 0px;
+           text-align: left;
           }
+
+         .img-eventos{
+           border-radius: 70px;
+          }
+
          .img-evento{
            border-radius: 35px;
            width: 549px;
-
           }
-        }
-    .row{
-    justify-content: center;
-    }
+         div .jumbotron{
+         background-color: $backgroundCards;
+         .dib{
+         margin-left: 150px;
+      }
+         }
+         }
+       .row{
+          justify-content: center;
+         }
+
+
 }
+
+/* MEDIAS QUERIS */
+
+@media only screen and (max-width: 768px){ 
+   .cards-padding{
+  padding-left: 50px; 
+  }
+  .map-responsive {
+    overflow:hidden;
+    padding-bottom:70%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+   main .row h1 {
+    color: #7A074CE5;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0px;
+    justify-content: center;
+    line-height: 35px;
+    margin: 20px;
+  }
+  main .row {
+  padding-bottom: 0px;
+}
+}
+main .row div .jumbotron .dib {
+   margin-left: 0px;
+}
+main{
+   padding-bottom:50px;
+}
+
+
+@media only screen and (min-width: 1024px){
+   div .row .destacado{
+   margin-left: 100px;
+}
+}
+

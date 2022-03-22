@@ -1,57 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mapa de Vinotecas</title>
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-</head>
-<body>
-	<!--inicio encabezado-->
-  <div class="contenedor-padre">
-     <header class="contenedor-padre--header">
-     <!--logo-->
-         <div>
-             <img class="logo" src="../assets/img/copa-blancoyuva.png" alt="logo">
-         </div>
-     <!--cierre logo--> 
-     <!--inicio nav-->
-         <nav>
-         	<ul class="nav">
-     	 	    <li class="nav__item"><a href="../index.html" class="nav__item--color">INICIO</a></li>
-     	 	    <li class="nav__item"><a href="eventos.html" class="nav__item--color">EVENTOS</a></li>
-     	 	    <li class="nav__item"><a href="#" class="nav__item--color">MAPA DE VINOTECAS<a/></li>
-     	 	    <li class="nav__item"><a href="sobre nosotros.html" class="nav__item--color">SOBRE NOSOTROS</a></li>
-                <li class="nav__item"><a href="contacto.html" class="nav__item--color">CONTACTO<a/></li>
-             </ul>
-         </nav>
-     <!--cierre nav-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <!-- CSS ANIMATE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- MI CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <title>Mapa de Vinotecas</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <!-- LOGO + NAV -->
+    <header class="row">
+      <div class="col-lg-12 col-12" style="padding-left: 0px; padding-right: 0px;">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"></a><img class="logo img-fluid" src="../assets/img/copa-blancoyuva.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../views/eventos.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa de Vinotecas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../views/sobre nosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../views/contacto.html">Contacto</a>
+            </li>
+           </ul>
+        </div>
+        </div>
+       </nav>
+      </div>
+   </header>
+   <!-- FIN LOGO + NAV -->
      </header> 
     <!--cierre encabezado-->
     <!--inicio contenido-->
-    <main class="contenedor-padre--main">
+     <main class="container-fluid">
+        <div class="row">
      <div>
-    	<h1>Mapa de Vinotecas según tu zona</h1>
-    	<h3 class="main__encabezado main__encabezado--color main__encabezado--fuente">Las mas recomendadas</h3>
-    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26268.079356278857!2d-58.45028986419207!3d-34.6165521645735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0e1cec7083%3A0x95bff2c78df359ad!2sVinoteca%20Rinc%C3%B3n%20Vino!5e0!3m2!1ses-419!2sar!4v1643266226029!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"></a>
-    </div>
-    </main>
-    <!--cierre contenido-->
-    <!--inicio footer-->
-      <footer class="contenedor-padre--footer">
-        <!--logo-->
-       <div>
-        <img class="logo" src="../assets/img/copa-blancoyuva.png" alt="logo"> 
+    	<div class="col-lg-12 col-12">
+            <h3 data-aos="fade-up">Mapa de Vinotecas</h3>
         </div>
-        <!--redes sociales-->
-         <div class="redes-sociales">
-            <img src="../assets/img/instagram.png" alt="instagram" class="footer__logoinstagram">
-            <img src="../assets/img/facebook.png" alt="facebook" class="footer__logofacebook">
-         </div>
-     </footer>
- </div>
-</body>
+        <div class="col-lg-6 col-12">
+            <p>Deslizate por el Mapa para econtrar las mejores Vinotecas de tu zona</p>
+        </div>
+        <div class="col-lg-6 col-12 map-responsive">
+    	    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26280.08885472712!2d-58.444363654551196!3d-34.578585515228916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svinotecas%20palermo!5e0!3m2!1ses-419!2sar!4v1647989949623!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+    </main>
+<!--cierre contenido-->
+<!-- COMIENZO DE FOOTER --> 
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-12"><img src="../assets/img/copa-blancoyuva.png" alt="logo" class="img-fluid logo"></div>
+          <div class="col-lg-4 col-12 footer-titulo"><h5>REDES SOCIALES</h5></div>
+          <div class="col-lg-4 col-12 footer-titulo"><h5>CONTACTO</h5></div>
+        </div>
+      </footer>
+      <!-- CIERRE FOOTER -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+       AOS.init();
+    </script>
+  </body>
 </html>
