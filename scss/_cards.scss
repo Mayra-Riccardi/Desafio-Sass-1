@@ -57,6 +57,26 @@ div .card{
         a{
             color: $colorPrimario;
         }
+
+        .texto-card1{
+        margin-left: 12px;
+        }
+        .texto-card2{
+        margin-left: -29px;
+        }
+        .texto-card3{
+        margin-left: -4px;
+        }
+        .texto-card4{
+        margin-left: -75px;
+        }
+
+}
+
+@media only screen and (max-width: 768px){
+	.cards-padding{
+	padding-left: 64px;
+    }
 }
  
 

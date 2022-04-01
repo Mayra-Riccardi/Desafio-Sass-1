@@ -2,15 +2,98 @@ footer{
 	background-color: $bgSecundario;
 	.logo{
 	width: 50px;
+	margin-left: 30px;
+    margin-top: 15px;
     }
-	.row{
-		align-items: flex-end;
-		h5{
-			color: $colorNavFoo;
-		}
-	.h6-footer{
-	color: white;
+
+    h3.envinar {
+        color: white;
+        font-family: 'Rubik';
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    p.links{
+    color: white;
+    font-family: 'Rubik';
+    margin-left: 10px;
+    }
+
+    a{
+    color: #d8d0d0;
+    font-family: 'Rubik';
+    }
+
+    .p-redes{
+    color: #d8d0d0;
+    font-family: 'Rubik';
+    }
+
+    p{
+    color: #d8d0d0;
+    font-family: 'Rubik';
+    }
+
+    h4{
+    color: white;
+    font-family: 'Rubik';
+    }
+
+    .footer-redes-sociales{
+    margin-top: 15px;
+    }
+
+    .footer-redes-icon{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+
+    a img{
+    margin-right: 10px;
+    }
+
+    i p{
+    margin-top: 20px;
+    }
+
+    div .footer-about{
+    margin-top: 15px;
+    }
+
+    .footer-about p{
+    margin-top: 30px;
+    }
+
 }
 
-	}
+footer{
+	overflow: hidden;
+}
+
+
+/* MEDIAS QUERIS */
+
+@media only screen and (max-width: 768px){
+	p .p-redes{
+	margin-left: 10px;
+    }
+
+    div .redes{
+    margin-left: 10px;
+    }
+
+   .texto{
+    margin-left: 10px;
+    }
+
+    .leyenda2{
+    margin-left: 10px;
+    }
+    .leyenda{
+    margin-left: 10px;
+    }
+}
+
+footer .footer-about p {
+    margin-top: 10px;
 }

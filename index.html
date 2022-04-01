@@ -59,12 +59,12 @@
         <div class="col-lg-12 col-12">
           <h1 class="titulo" data-aos="fade-up">Recomendados para vos</h1>
         </div>
-      <section class="row cards-padding" data-aos="flip-left">
+      <section class="row cards-padding">
         <div class="col-lg-3 col-12">
           <div class="card" data-aos="flip-left">
             <img src="assets/img/carasur.png">
             <h4> Cara Sur 2015</h4>
-            <h6> Valle de Calingasta <br>Bonarda</h6>
+            <h6 class="texto-card1"> Valle de Calingasta <br>Bonarda</h6>
             <a href="#">Ver +</a>
           </div>
         </div>
@@ -72,7 +72,7 @@
           <div class="card" data-aos="flip-left">
             <img class="img2" src="assets/img/El-Enemigo.png">
             <h4> El Enemigo 2016</h4>
-            <h6> Valle de Uco <br>Cabernet Franc</h6>
+            <h6 class="texto-card2"> Valle de Uco <br>Cabernet Franc</h6>
             <a href="#">Ver +</a>
           </div>
         </div>
@@ -80,7 +80,7 @@
           <div class="card" data-aos="flip-left">
             <img class="img3" src="assets/img/riccitelli.png">
             <h4> Riccitelli 2016</h4>
-            <h6> Finca La Trinidad <br>Malbec</h6>
+            <h6 class="texto-card3"> Finca La Trinidad <br>Malbec</h6>
             <a href="#">Ver +</a>
           </div>
         </div>
@@ -88,7 +88,7 @@
           <div class="card" data-aos="flip-left">
             <img class="img4" src="assets/img/lindaflor.png">
             <h4> Linda Flor 2012</h4>
-            <h6> Maipu <br>Malbec</h6>
+            <h6 class="texto-card4"> Maipu <br>Malbec</h6>
             <a href="#">Ver +</a>
           </div>
         </div>
@@ -149,13 +149,36 @@
     </main>
 
       <!-- COMIENZO DE FOOTER --> 
-      <footer class="container-fluid">
-        <div class="row">
-          <div class="col-lg-4 col-12"><img src="assets/img/copa-blancoyuva.png" alt="logo" class="img-fluid logo"></div>
-          <div class="col-lg-4 col-12 footer-titulo"><h6 class="h6-footer">REDES SOCIALES</h6></div>
-          <div class="col-lg-4 col-12 footer-titulo"><h6 class="h6-footer">CONTACTO</h6></div>
+
+      <footer class="footer">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 footer-navigation">
+            <img src="assets/img/copa-blancoyuva.png" alt="logo" class="img-fluid logo">
+            <h3 class="envinar">Envinar</h3>
+            <p class="links"><a href="#">Inicio</a><strong> · </strong><a href="views/eventos.html">Eventos</a><strong> · </strong><a href="views/mapa de vinotecas.html">Mapas</a><strong> · </strong><a href="views/sobre nosotros.html">Nosotros</a><strong> · </strong><a href="views/contacto.html">Contacto</a></p>
         </div>
-      </footer>
+        <div class="col-sm-6 col-md-4 footer-redes-sociales">
+            <div><span class="footer-redes-icon"> </span>
+                <p><span class="p-redes">Redes Sociales</span>
+            </div>
+            <div class="redes">
+              <i class="footer-redes-icon"></i>
+                <a href="https://www.instagram.com/?hl=es" target="_blank"><img src="assets/img/instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="assets/img/facebook.png" alt="facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="assets/img/twitter.png" alt="twitter"></a>
+                <a href="envinar@gmail.com" target="_blank"><img src="assets/img/email.png" alt="email"></a>
+            </div>
+            <div class="iconos-footer"><i class="footer-contacts-icon"></i>
+                <p class="texto" style="margin-top: 12px;"> Siempre a tu disposición </p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-4 footer-about">
+            <h4 class="leyenda2">Envinar se trata de la experiencia y la comunidad </h4>
+            <p class="leyenda">Millones de personas confían en nosotros para encontrar y comprar el vino perfecto una y otra vez</p>
+        </div>
+    </div>
+</footer>
       <!-- CIERRE FOOTER -->
 
     <!-- Optional JavaScript; choose one of the two! -->

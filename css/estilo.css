@@ -10,13 +10,62 @@
 footer {
   background-color: #7A074C; }
   footer .logo {
-    width: 50px; }
-  footer .row {
-    align-items: flex-end; }
-    footer .row h5 {
-      color: white; }
-    footer .row .h6-footer {
-      color: white; }
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 15px; }
+  footer h3.envinar {
+    color: white;
+    font-family: 'Rubik';
+    margin-left: 10px;
+    margin-top: 10px; }
+  footer p.links {
+    color: white;
+    font-family: 'Rubik';
+    margin-left: 10px; }
+  footer a {
+    color: #d8d0d0;
+    font-family: 'Rubik'; }
+  footer .p-redes {
+    color: #d8d0d0;
+    font-family: 'Rubik'; }
+  footer p {
+    color: #d8d0d0;
+    font-family: 'Rubik'; }
+  footer h4 {
+    color: white;
+    font-family: 'Rubik'; }
+  footer .footer-redes-sociales {
+    margin-top: 15px; }
+  footer .footer-redes-icon {
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  footer a img {
+    margin-right: 10px; }
+  footer i p {
+    margin-top: 20px; }
+  footer div .footer-about {
+    margin-top: 15px; }
+  footer .footer-about p {
+    margin-top: 30px; }
+
+footer {
+  overflow: hidden; }
+
+/* MEDIAS QUERIS */
+@media only screen and (max-width: 768px) {
+  p .p-redes {
+    margin-left: 10px; }
+  div .redes {
+    margin-left: 10px; }
+  .texto {
+    margin-left: 10px; }
+  .leyenda2 {
+    margin-left: 10px; }
+  .leyenda {
+    margin-left: 10px; } }
+
+footer .footer-about p {
+  margin-top: 10px; }
 
 main {
   background-color: #fddcdc42;
@@ -160,6 +209,18 @@ div .card {
     font-size: 14px; }
   div .card a {
     color: #7A074CE5; }
+  div .card .texto-card1 {
+    margin-left: 12px; }
+  div .card .texto-card2 {
+    margin-left: -29px; }
+  div .card .texto-card3 {
+    margin-left: -4px; }
+  div .card .texto-card4 {
+    margin-left: -75px; }
+
+@media only screen and (max-width: 768px) {
+  .cards-padding {
+    padding-left: 64px; } }
 
 div .formulario {
   width: 400px;
